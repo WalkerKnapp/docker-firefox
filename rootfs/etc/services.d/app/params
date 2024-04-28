@@ -20,3 +20,8 @@ fi
 if [ -n "${FF_OPEN_URL:-}" ]; then
     echo "$FF_OPEN_URL"
 fi
+
+# Enable debugging
+echo "--marionette"
+echo "--start-debugger-server"
+echo "2828"
